@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FFFDFA;
+}
+
+.custom-height {
+    height: 80vh;
+}
+
+.box {
+    width: 40%;
+    height: 40px;
+    border: 2px solid #BEBEBE;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    color: #BEBEBE;
+    text-align: left;
+}
